@@ -97,7 +97,7 @@
 <body>
     <form id="login-form">
         <label for="code">IS IT YOU?🥺🥺:</label>
-        <input type="text" id="code" name="code" placeholder="Your Name">
+        <input type="text" id="code" name="code" placeholder="KEY">
         <button id="submit-btn">ENTER TO HEART</button>
     </form>
     <div id="result"></div>
@@ -114,7 +114,7 @@
             e.preventDefault();
             const userInput = codeInput.value.trim();
             if (userInput === secretCode) {
-                resultDiv.innerHTML = 'Baby';
+                resultDiv.innerHTML = 'MINE';
                 window.location.href = nextPageUrl; // Redirect to new page
             } else {
                 resultDiv.innerHTML = 'Only "JYOTSNA" HAS KEY TO TANAV HEART';
